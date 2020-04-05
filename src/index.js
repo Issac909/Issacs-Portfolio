@@ -1,12 +1,22 @@
+// React Required
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+
+// Create Import File
+import "./index.scss";
 
 import App from "./App";
 
-ReactDOM.render(
-  <Router>
+import { BrowserRouter as Router } from "react-router-dom";
+import * as serviceWorker from "./serviceWorker";
+
+const Root = () => {
+  return (
+    <Router basename={"/"}>
       <App />
-  </Router>,
-  document.getElementById("root")
-);
+    </Router>
+  );
+};
+
+ReactDOM.render(<Root />, document.getElementById("root"));
+serviceWorker.register();
