@@ -8,7 +8,7 @@ import "./index.scss";
 import App from "./App";
 
 import { BrowserRouter as Router } from "react-router-dom";
-import * as serviceWorker from "./serviceWorker";
+
 
 const Root = () => {
   return (
@@ -19,4 +19,4 @@ const Root = () => {
 };
 
 ReactDOM.render(<Root />, document.getElementById("root"));
-serviceWorker.register();
+

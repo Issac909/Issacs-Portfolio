@@ -21,20 +21,17 @@
 
 
 /**************************************
-    Inner Styles
+    Common Styles
 ***************************************/
 
-@import 'common/breadcrump';
 @import 'common/section-title';
 @import 'common/button';
-@import 'common/pagination';
 @import 'common/socialicon';
 @import 'common/footer';
 
 
-
 /**************************************
-    Implemented
+    Component Styles
 ***************************************/
 
 @import 'elements/current/portfolio';
@@ -46,23 +43,8 @@
 @import 'elements/current/portfolio-details';
 
 
-/**************************************
-    Not Implemented
-***************************************/
 
-@import 'elements/future/notstarted/service';
-@import 'elements/future/notstarted/counterup';
-@import 'elements/future/notstarted/testimonial';
-@import 'elements/future/notstarted/brand';
-@import 'elements/future/notstarted/team';
-@import 'elements/future/notstarted/callto-action';
-@import 'elements/future/notstarted/accordion';
-@import 'elements/future/notstarted/progress';
-@import 'elements/future/notstarted/column';
-@import 'elements/future/notstarted/404';
-@import 'elements/future/notstarted/pricing';
-@import 'elements/future/notstarted/service-details';
-@import 'elements/future/notstarted/dark-version';
-@import 'elements/future/notstarted/preview';
-@import 'elements/future/notstarted/blog';
-@import 'elements/future/notstarted/blog-details';
+
+
+
+
