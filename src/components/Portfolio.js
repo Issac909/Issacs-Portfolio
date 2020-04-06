@@ -11,7 +11,7 @@ const QuickAccess = [
     textPosition: "text-left",
     category: "Aspring Web Designer",
     title: "Hello, I’m Issac.",
-    description: "Nobodies got the answer for life. To me, life seems to be a balance of being creative and utilizing knowledge",
+    description: "To me, life seems to be a balance of being creative and utilizing knowledge. Great things happen when you can find the center",
     buttonText: "GitHub",
     buttonLink: "https://github.com/Issac909",
   },
