@@ -25,10 +25,10 @@ class AboutTabs extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          Front End <span> - React.js</span>
+                          Front End <span> - React.js / Frontend </span>
                         </li>
                         <li>
-                          Back End<span> - Node.js</span>
+                          Back End<span> - Node.js / Restful API</span>
                         </li>
                         <li>
                           JavaScript <span> - ES6 / ES9</span>
