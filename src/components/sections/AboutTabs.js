@@ -25,7 +25,7 @@ class AboutTabs extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          Front End <span> - React.js / Frontend </span>
+                          Front End <span> - React.js</span>
                         </li>
                         <li>
                           Back End<span> - Node.js / Restful API</span>
