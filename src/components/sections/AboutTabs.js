@@ -40,13 +40,11 @@ class AboutTabs extends Component {
                   <TabPanel>
                     <div className="single-tab-content">
                       <iframe
-                        title = "Resume"
-                        src="https://www.keepandshare.com/doc3/61642/issacxm-resume-pdf-187k?da=y&ifr=y"
-                        width="120%"
-                        height="420"
-                        scrolling="yes"
-                        horizontalScrolling ="yes"
-                        frameborder="2"
+
+                        src="https://resume.creddle.io/embed/itpfna8js38"
+                        width="140%"
+                        height="600"
+                        seamless
                       ></iframe>
                     </div>
                   </TabPanel>

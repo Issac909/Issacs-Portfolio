@@ -11,7 +11,7 @@ const QuickAccess = [
     textPosition: "text-left",
     category: "Aspring Web Designer",
     title: "Hello, I’m Issac.",
-    description: "We're already here, might as well make the best of it",
+    description: "Nobodies got the answer for life. To me, life seems to be a balance of being creative and utilizing knowledge",
     buttonText: "GitHub",
     buttonLink: "https://github.com/Issac909",
   },
@@ -19,7 +19,7 @@ const QuickAccess = [
 const Portfolio = () => {
   let title = "About Me",
     description =
-      "I am currently enrolled at school studying Full Stack Web Development.";
+      "I am seeking new employment.";
   return (
     <div>
       <Helmet pageTitle="Issac's Portfolio" />

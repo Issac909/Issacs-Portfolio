@@ -34,7 +34,7 @@ const F = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p><b>Last Update:</b> 4-05-2020</p>
+                                <p><b>Last Update:</b> 4-06-2020</p>
                             </div>
                         </div>
                     </div>

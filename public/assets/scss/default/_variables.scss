@@ -60,6 +60,10 @@ $large-mobile: "only screen and (max-width: 575px)";
 $small-mobile: "only screen and (max-width: 479px)";
 /* container 300px*/
 
+.container {
+  background-color: rgba(241, 241, 241, 0.4);
+}
+
 @media #{$large-mobile} {
   .container {
     width: 450px;
