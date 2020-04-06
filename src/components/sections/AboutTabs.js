@@ -42,10 +42,11 @@ class AboutTabs extends Component {
                       <iframe
                         title = "Resume"
                         src="https://www.keepandshare.com/doc3/61642/issacxm-resume-pdf-187k?da=y&ifr=y"
-                        width="900"
-                        height="235"
+                        width="120%"
+                        height="420"
                         scrolling="yes"
-                        frameborder="1"
+                        horizontalScrolling ="yes"
+                        frameborder="2"
                       ></iframe>
                     </div>
                   </TabPanel>

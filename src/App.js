@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import './index.scss';
+import "./index.scss";
 
 import Portfolio from "./components/Portfolio";
 import error404 from "./components/error404";

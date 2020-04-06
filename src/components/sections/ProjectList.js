@@ -4,23 +4,23 @@ const QuickAccess = [
   {
     image: "image-1",
     category: "Front-End / React.js",
-    title: "Minimalist"
+    title: "Essentialism",
   },
   {
     image: "image-2",
     category: "Front-End / React.js",
-    title: "Med-Cabinet"
+    title: "Med-Cabinet",
   },
   {
     image: "image-3",
     category: "HTML5 / CSS",
-    title: "Trip Split"
+    title: "Trip Split",
   },
   {
     image: "image-4",
     category: "Front-End / Promises",
-    title: "Chuck Norris Jokes"
-  }
+    title: "Chuck Norris Jokes",
+  },
 ];
 
 class PortfolioList extends Component {
@@ -40,10 +40,15 @@ class PortfolioList extends Component {
                 <div className="inner">
                   <p>{value.category}</p>
                   <h4>
-                    <a href="/portfolio-details">{value.title}</a>
+                    <a href="https://github.com/Issac909?tab=repositories">
+                      {value.title}
+                    </a>
                   </h4>
                   <div className="portfolio-button">
-                    <a className="rn-btn" href="/portfolio-details">
+                    <a
+                      className="rn-btn"
+                      href="https://github.com/Issac909?tab=repositories"
+                    >
                       View Details
                     </a>
                   </div>

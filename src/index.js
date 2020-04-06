@@ -1,14 +1,11 @@
-// React Required
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Create Import File
 import "./index.scss";
 
 import App from "./App";
 
 import { BrowserRouter as Router } from "react-router-dom";
-
 
 const Root = () => {
   return (
@@ -19,4 +16,3 @@ const Root = () => {
 };
 
 ReactDOM.render(<Root />, document.getElementById("root"));
-

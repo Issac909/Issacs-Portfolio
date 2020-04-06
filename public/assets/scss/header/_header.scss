@@ -140,7 +140,7 @@
     padding-left: 50px;
     padding-right: 50px;
     width: 100%;
-    background: transparent;
+    background: black;
     transition: 0.3s;
 
     @media #{$lg-layout} {
@@ -209,21 +209,19 @@
       }
     }
 
-    &.default-color {
-      &.sticky {
-        .mainmenunav {
-          ul {
-            &.mainmenu {
-              > li {
-                > a {
-                  color: $heading-color;
-                }
-                &.is-current {
-                  a {
-                    color: $theme-color;
-                    &::after {
-                      width: 100%;
-                    }
+    &.sticky {
+      .mainmenunav {
+        ul {
+          &.mainmenu {
+            > li {
+              > a {
+                color: black;
+              }
+              &.is-current {
+                a {
+                  color: $theme-color;
+                  &::after {
+                    width: 100%;
                   }
                 }
               }
@@ -269,6 +267,13 @@
             color: $heading-color !important;
           }
         }
+      }
+    }
+    &.sticky {
+      .social-share {
+          li {
+            background-color: $theme-color;
+          }
       }
     }
   }
