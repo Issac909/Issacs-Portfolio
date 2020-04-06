@@ -1,1 +1,1 @@
-This project was created by Issac Moreno for professional purposes
+This resume was created by Issac Moreno for professional purposes. No intention to market or solicit or obtain information for any reason.
